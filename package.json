@@ -1,0 +1,30 @@
+{
+  "name": "ractive-image",
+  "version": "0.0.3",
+  "description": "A ractive component with baked in features like lazy loading, placeholders, and basic art-direction",
+  "main": "ractive-image.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ractive",
+    "ractivejs",
+    "image",
+    "component"
+  ],
+  "author": "Francis Wertz <francis.wertz@seisan.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fwertz/ractive-image"
+  },
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "node-sass": "^3.4.2",
+    "ractive": "^0.7.3",
+    "ractive-loader": "^0.5.6",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.10"
+  }
+}

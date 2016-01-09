@@ -1,0 +1,24 @@
+{{#if placeholder && !noPlaceholder}}
+	<img
+		class="r-image r-image-placeholder {{^visiblePlaceholder}}r-out-of-view{{/visiblePlaceholder}}"
+		on-viewport="viewport"
+
+
+		{{#height}} height="{{height}}" {{/height}}
+		{{#width}} width="{{width}}" {{/width}}
+
+		src="{{ visiblePlaceholder ? placeholder : '' }}"
+		alt="{{data-placeholder-alt || data-alt || alt}}" />
+{{/if}}
+{{#src}}
+	<img
+		class="r-image {{^visible}}r-out-of-view{{/visible}}"
+		on-viewport="viewport"
+
+		{{#height}} height="{{height}}" {{/height}}
+		{{#width}} width="{{width}}" {{/width}}
+
+		src="{{ visible ?  src : '' }}"
+
+		alt="{{data-alt || alt}}" />
+{{/src}}

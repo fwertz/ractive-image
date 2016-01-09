@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ractive-image demo</title>
+</head>
+<body>
+    <p>This is a demo of ractive-image</p>
+
+</body>
+
+<script id="template" type="text/ractive">
+    <r-image
+        height="500"
+        width="500"
+
+        placeholder="https://placeholdit.imgix.net/~text?txtsize=350&txt=3000%C3%973000p&w=3000&h=3000"
+        src="https://placeholdit.imgix.net/~text?txtsize=700&txt=6000%C3%976000&w=6000&h=6000"/>
+</script>
+
+<script src='http://cdn.ractivejs.org/latest/ractive.js'></script>
+<script src="../ractive-image.min.js"></script>
+<script>
+    Ractive.components['r-image'] = RactiveImage;
+
+    new Ractive({
+        el: 'body',
+        template: '#template',
+        append: true
+    });
+</script>
+
+
+
+</html>

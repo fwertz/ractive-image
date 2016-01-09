@@ -1,0 +1,11 @@
+$bg-color: #777;
+
+
+.r-image {
+  background-color: $bg-color;
+
+  &.r-out-of-view {
+    height: 1px;
+    width: 1px;
+  }
+}
