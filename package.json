@@ -1,6 +1,6 @@
 {
   "name": "ractive-image",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A ractive component with baked in features like lazy loading, placeholders, and basic art-direction",
   "main": "ractive-image.min.js",
   "scripts": {
