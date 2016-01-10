@@ -1,11 +1,23 @@
-$bg-color: #777;
+$bg-color: #EFEFEF;
 
+@mixin transition($transition...) {
+  -moz-transition:    $transition;
+  -o-transition:      $transition;
+  -webkit-transition: $transition;
+  transition:         $transition;
+}
 
-.r-image {
+.r-image-hole {
   background-color: $bg-color;
+  display: inline-block;
 
-  &.r-out-of-view {
-    height: 1px;
-    width: 1px;
+  & > img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+
+    @include transition( opacity 0.1s ease-in );
   }
+
 }
