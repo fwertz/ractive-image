@@ -1,6 +1,11 @@
 require( './style.scss' );
 Ractive.events.viewport = require( './deps/ractive-event-viewport' );
 
+
+
+
+
+
 /**
  *
  */
@@ -57,10 +62,11 @@ function viewport ( e ) {
             self.set( 'loaded.src', true );
             hole.appendChild( img );
 
-            hole
-                .querySelector( '.r-image-placeholder' )
-                .style
-                .opacity = 0;
+            var placeholder = hole.querySelector( '.r-image-placeholder' );
+
+            if ( placeholder ) {
+                placeholder.style.opacity = 0;
+            }
 
             // This is lame, switch out for MutationObserver
             // or something that doesn't scream "hold my beer"

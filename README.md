@@ -3,7 +3,7 @@
 # ractive-image
 
 ### What is this nonsense?
-**ractive-image** is a [Ractive]() component which sets out to grant a comfortable set of defaults not found in a traditional image tag. These comfortable defaults include:
+**ractive-image** is a [Ractive](https://github.com/ractivejs/ractive) component which sets out to grant a comfortable set of defaults not found in a traditional image tag. These comfortable defaults include:
 + Lazy loading
 + Placeholder images / boxes
 + Best-fit art-direction
