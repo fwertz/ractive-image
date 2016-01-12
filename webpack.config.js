@@ -8,11 +8,11 @@ module.exports = {
         library: 'RactiveImage',
         libraryTarget: 'umd'
     },
-    //plugins: [
-    //  new webpack.optimize.UglifyJsPlugin({
-    //      compress: { warnings: false }
-    //  })
-    //],
+    plugins: [
+      new webpack.optimize.UglifyJsPlugin({
+          compress: { warnings: false }
+      })
+    ],
     module: {
         loaders: [
             { test: /\.scss$/, loaders: ["style", "css", "sass"] },

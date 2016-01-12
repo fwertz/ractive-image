@@ -78,6 +78,7 @@ function viewport ( e ) {
 
         }
 
+
         img.style.opacity = 0;
         img.src = this.get( 'src' );
 
