@@ -1,13 +1,13 @@
-## *Under development*. First planned stable release is *0.1.0*.
-
 # ractive-image
-
-### What is this nonsense?
-**ractive-image** is a [Ractive](https://github.com/ractivejs/ractive) component which sets out to grant a comfortable set of defaults not found in a traditional image tag. These comfortable defaults include:
+**ractive-image** is a [Ractive](https://github.com/ractivejs/ractive) [component](http://docs.ractivejs.org/latest/components) which sets out to grant a comfortable set of defaults, like:
 + Lazy loading
 + Placeholder images / boxes
 + Best-fit art-direction
 + `srcset` support (coming soon)
+
+
+### Demo
+Check out [this codepen](http://codepen.io/fwertz/pen/EPXOjJ) for a demonstration using [Waterfall.js](http://raphamorim.com/waterfall.js)
 
 ### Installation
 `npm install ractive-image`

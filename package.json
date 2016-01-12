@@ -1,7 +1,9 @@
 {
   "name": "ractive-image",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "A ractive component with baked in features like lazy loading, placeholders, and basic art-direction",
+  "homepage": "http://fwertz.github.io/ractive-image/",
+  "bugs": "https://github.com/fwertz/ractive-image/issues",
   "main": "ractive-image.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,6 +15,10 @@
     "component"
   ],
   "author": "Francis Wertz <francis.wertz@seisan.com>",
+  "contributors": {
+    "name": "Prathap Reddy",
+    "url": "https://github.com/svapreddy"
+  },
   "license": "ISC",
   "repository": {
     "type": "git",
