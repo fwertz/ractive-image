@@ -1,5 +1,5 @@
 <div on-viewport="viewport" class="r-image-hole {{class}}" style="{{#width}}width: {{width}};{{/width}}{{#height}}height: {{height}};{{/height}}">
-	{{#placeholder}}
+	{{#if placeholder && !loaded.src}}
 		<img class="r-image-placeholder" src="{{placeholder}}" />
-	{{/placeholder}}
+	{{/if}}
 </div>
