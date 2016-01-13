@@ -1,6 +1,6 @@
 {
   "name": "ractive-image",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A ractive component with baked in features like lazy loading, placeholders, and basic art-direction",
   "homepage": "http://fwertz.github.io/ractive-image/",
   "bugs": "https://github.com/fwertz/ractive-image/issues",

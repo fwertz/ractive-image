@@ -29,3 +29,14 @@ If not using modules, **ractive-image** will expose a **`RactiveImage`** global.
     placeholder="/v1/me/avatar?s=sample"
     src="/v1/me/avatar?s=med" />
 ```
+
+### Events
++ `select`
+
+
+### Testing
+For now, I'm manually testing initial features and small additions. Test scripts will be a requirement before launching **v1.0.0**
+
+
+### Contributing
+Small project (and I'm new to writing public facing modules), so no preferences on contributions yet. PR's welcome, just name it something obvious.

@@ -1,4 +1,4 @@
-<div on-viewport="viewport" class="r-image-hole {{class}}" style="{{#width}}width: {{width}};{{/width}}{{#height}}height: {{height}};{{/height}}">
+<div on-click="select" on-viewport="viewport" class="r-image-hole {{class}}" style="{{#width}}width: {{width}};{{/width}}{{#height}}height: {{height}};{{/height}}">
 	{{#if placeholder && !loaded.src}}
 		<img class="r-image-placeholder" src="{{placeholder}}" />
 	{{/if}}
